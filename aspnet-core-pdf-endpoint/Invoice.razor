@@ -1,0 +1,31 @@
+@namespace PdfSample
+<html>
+<head>
+    <style>
+        body { font-family: sans-serif; margin: 40px; }
+        table { width: 100%; border-collapse: collapse; }
+        td, th { border-bottom: 1px solid #ddd; padding: 8px; text-align: left; }
+        .total { font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h1>Invoice #@Number</h1>
+    <p>Billed to @Customer</p>
+    <table>
+        <tr><th>Item</th><th>Amount</th></tr>
+        @foreach (var line in Lines)
+        {
+            <tr><td>@line.Item</td><td>@line.Amount.ToString("C")</td></tr>
+        }
+        <tr class="total"><td>Total</td><td>@Lines.Sum(l => l.Amount).ToString("C")</td></tr>
+    </table>
+</body>
+</html>
+
+@code {
+    [Parameter] public int Number { get; set; }
+    [Parameter] public string Customer { get; set; } = "";
+    [Parameter] public List<InvoiceLine> Lines { get; set; } = [];
+
+    public record InvoiceLine(string Item, decimal Amount);
+}

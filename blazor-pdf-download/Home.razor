@@ -1,0 +1,20 @@
+@page "/"
+@namespace PdfSample
+@using Microsoft.AspNetCore.Components.Web
+@rendermode RenderMode.InteractiveServer
+
+<h1>Monthly report</h1>
+
+<label>
+    Customer
+    <input @bind="customer" @bind:event="oninput" />
+</label>
+
+<a href="@PdfUrl" download>Download PDF</a>
+
+@code {
+    string customer = "Contoso Ltd";
+
+    // the link follows the input as the user types; the endpoint in Program.cs makes the PDF
+    string PdfUrl => $"report.pdf?customer={Uri.EscapeDataString(customer)}";
+}

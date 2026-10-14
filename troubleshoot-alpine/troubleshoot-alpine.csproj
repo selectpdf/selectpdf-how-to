@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>PdfSample</AssemblyName>
+  </PropertyGroup>
+
+  <!-- only the managed package: the engines run in the selectpdf/engine container -->
+  <ItemGroup>
+    <PackageReference Include="SelectPdf.Universal" Version="26.5.0" />
+  </ItemGroup>
+
+  <!-- the samples' shared setup (license key, output folder); not part of the guide -->
+  <ItemGroup Condition="Exists('../Shared.cs')">
+    <Compile Include="../Shared.cs" Link="Shared.cs" />
+  </ItemGroup>
+
+</Project>

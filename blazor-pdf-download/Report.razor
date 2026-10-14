@@ -1,0 +1,28 @@
+@namespace PdfSample
+<html>
+<head>
+    <style>
+        body { font-family: sans-serif; margin: 40px; }
+        table { width: 100%; border-collapse: collapse; }
+        td, th { border-bottom: 1px solid #ddd; padding: 8px; text-align: left; }
+    </style>
+</head>
+<body>
+    <h1>Monthly report</h1>
+    <p>Prepared for @Customer</p>
+    <table>
+        <tr><th>Month</th><th>Orders</th></tr>
+        @foreach (var row in Rows)
+        {
+            <tr><td>@row.Month</td><td>@row.Orders</td></tr>
+        }
+    </table>
+</body>
+</html>
+
+@code {
+    [Parameter] public string Customer { get; set; } = "";
+    [Parameter] public List<ReportRow> Rows { get; set; } = [];
+
+    public record ReportRow(string Month, int Orders);
+}

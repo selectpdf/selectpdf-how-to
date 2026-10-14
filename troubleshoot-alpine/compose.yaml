@@ -1,0 +1,20 @@
+services:
+  # the service name is the library's default endpoint: http://selectpdf-engine:8080
+  selectpdf-engine:
+    image: ghcr.io/selectpdf/engine:26.5
+    read_only: true
+    tmpfs:
+      - /tmp
+    environment:
+      SELECTPDF_ENGINE_TOKEN: ${SELECTPDF_ENGINE_TOKEN}
+
+  app:
+    build: .
+    volumes:
+      - ./out:/out
+    working_dir: /out
+    environment:
+      SELECTPDF_ENGINE_TOKEN: ${SELECTPDF_ENGINE_TOKEN}
+    depends_on:
+      selectpdf-engine:
+        condition: service_healthy

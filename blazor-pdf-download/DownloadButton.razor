@@ -1,0 +1,30 @@
+@namespace PdfSample
+@using Microsoft.AspNetCore.Components.Web
+@using Microsoft.JSInterop
+@inject IJSRuntime JS
+
+<button @onclick="DownloadAsync" disabled="@busy">
+    @(busy ? "Generating..." : "Download PDF")
+</button>
+
+@code {
+    [Parameter] public string Customer { get; set; } = "Contoso Ltd";
+    bool busy;
+
+    async Task DownloadAsync()
+    {
+        busy = true;   // the button re-renders disabled at the first await
+        try
+        {
+            await using Stream pdf = await StreamDownload.CreatePdfAsync(Customer);
+            using var streamRef = new DotNetStreamReference(pdf);
+            await using IJSObjectReference module =
+                await JS.InvokeAsync<IJSObjectReference>("import", "./DownloadButton.razor.js");
+            await module.InvokeVoidAsync("downloadFileFromStream", "report.pdf", streamRef);
+        }
+        finally
+        {
+            busy = false;
+        }
+    }
+}
