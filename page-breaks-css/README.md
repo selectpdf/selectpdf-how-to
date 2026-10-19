@@ -2,7 +2,9 @@
 
 Control where pages break when you convert HTML to PDF in C#: page-break-before, page-break-after and page-break-inside in CSS, plus breaks from @media print.
 
-**Step-by-step guide:** https://selectpdf.com/how-to/page-breaks-css/
+**Step-by-step guide:** https://selectpdf.com/how-to/page-breaks-css/  
+**Video walkthrough:** https://www.youtube.com/watch?v=CigzUm_xnxk  
+**Short version:** https://www.youtube.com/shorts/B7ALaSRLd4w
 
 ## Run it
 

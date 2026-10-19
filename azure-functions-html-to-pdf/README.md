@@ -2,7 +2,9 @@
 
 Generate PDFs from HTML in an Azure Functions HTTP trigger with C#: the isolated worker, the plans that work, the Linux and Windows packages, deployment.
 
-**Step-by-step guide:** https://selectpdf.com/how-to/azure-functions-html-to-pdf/
+**Step-by-step guide:** https://selectpdf.com/how-to/azure-functions-html-to-pdf/  
+**Video walkthrough:** https://www.youtube.com/watch?v=-c0ggzb6ArU  
+**Short version:** https://www.youtube.com/shorts/kSegocoV7Ow
 
 ## Run it
 

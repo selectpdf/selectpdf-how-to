@@ -2,7 +2,9 @@
 
 Fix blank or incomplete PDFs from HTML in C#: wait for script content, start the conversion from JavaScript, resolve relative images and use print CSS.
 
-**Step-by-step guide:** https://selectpdf.com/how-to/troubleshoot-blank-or-missing-content/
+**Step-by-step guide:** https://selectpdf.com/how-to/troubleshoot-blank-or-missing-content/  
+**Video walkthrough:** https://www.youtube.com/watch?v=xlubRPqEnxY  
+**Short version:** https://www.youtube.com/shorts/zHyYFehgJY0
 
 ## Run it
 

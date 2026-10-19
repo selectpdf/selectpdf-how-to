@@ -2,7 +2,9 @@
 
 Add an HTML header with a logo and title and a footer with the date to each PDF page in C#, from an HTML string, a URL or an image, with SelectPdf.Universal.
 
-**Step-by-step guide:** https://selectpdf.com/how-to/html-header-footer/
+**Step-by-step guide:** https://selectpdf.com/how-to/html-header-footer/  
+**Video walkthrough:** https://www.youtube.com/watch?v=897HCvsnOvw  
+**Short version:** https://www.youtube.com/shorts/yEo8kWoQnHQ
 
 ## Run it
 

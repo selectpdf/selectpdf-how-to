@@ -2,7 +2,9 @@
 
 Create accessible, tagged PDF/UA-1 and PDF/UA-2 documents from HTML in C#, with PDF/A-4 or PDF/A-3A for archiving, all validated with veraPDF.
 
-**Step-by-step guide:** https://selectpdf.com/how-to/accessible-pdf-ua-csharp/
+**Step-by-step guide:** https://selectpdf.com/how-to/accessible-pdf-ua-csharp/  
+**Video walkthrough:** https://www.youtube.com/watch?v=hFOCT6lKGiY  
+**Short version:** https://www.youtube.com/shorts/pJinIciH_IA
 
 ## Run it
 

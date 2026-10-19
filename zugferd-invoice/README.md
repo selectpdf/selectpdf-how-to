@@ -2,7 +2,9 @@
 
 Create a ZUGFeRD / Factur-X hybrid invoice in C#: convert HTML to PDF/A-3 and embed the CII XML with AddZugferdInvoice and the right profile.
 
-**Step-by-step guide:** https://selectpdf.com/how-to/zugferd-invoice/
+**Step-by-step guide:** https://selectpdf.com/how-to/zugferd-invoice/  
+**Video walkthrough:** https://www.youtube.com/watch?v=W_yi_3orJZA  
+**Short version:** https://www.youtube.com/shorts/GlTK8eSaSHw
 
 ## Run it
 

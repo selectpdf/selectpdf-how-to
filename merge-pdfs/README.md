@@ -2,7 +2,9 @@
 
 Merge PDF files in C# with SelectPdf.Universal: combine files, in-memory streams, converted HTML or a whole folder into one PDF, on Windows, Linux and macOS.
 
-**Step-by-step guide:** https://selectpdf.com/how-to/merge-pdfs/
+**Step-by-step guide:** https://selectpdf.com/how-to/merge-pdfs/  
+**Video walkthrough:** https://www.youtube.com/watch?v=r-MFEHZFJRI  
+**Short version:** https://www.youtube.com/shorts/9JpyORx4sX4
 
 ## Run it
 

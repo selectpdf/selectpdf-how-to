@@ -2,7 +2,9 @@
 
 Convert many pages to PDF at once in C#: async conversion with Task.WhenAll, a concurrency limit, timeouts and cancellation, batches with Parallel.ForEachAsync.
 
-**Step-by-step guide:** https://selectpdf.com/how-to/async-parallel-html-to-pdf/
+**Step-by-step guide:** https://selectpdf.com/how-to/async-parallel-html-to-pdf/  
+**Video walkthrough:** https://www.youtube.com/watch?v=FdNhWTGaDec  
+**Short version:** https://www.youtube.com/shorts/jgEAcxxcNE0
 
 ## Run it
 

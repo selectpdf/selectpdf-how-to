@@ -2,7 +2,9 @@
 
 Stamp a rotated, semi-transparent CONFIDENTIAL watermark on every page of an existing PDF in C# with SelectPdf.Universal, plus logo and DRAFT variations.
 
-**Step-by-step guide:** https://selectpdf.com/how-to/watermark-pdf/
+**Step-by-step guide:** https://selectpdf.com/how-to/watermark-pdf/  
+**Video walkthrough:** https://www.youtube.com/watch?v=zJVXbp0TraI  
+**Short version:** https://www.youtube.com/shorts/jblNxOcXQBE
 
 ## Run it
 

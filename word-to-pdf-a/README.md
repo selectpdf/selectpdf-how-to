@@ -2,7 +2,9 @@
 
 Convert Word DOCX files to archival PDF/A in C#: PDF/A-2b with title metadata, PDF/A-4, accessible PDF/A-3a with PDF/UA-1, and merging into PDF/A.
 
-**Step-by-step guide:** https://selectpdf.com/how-to/word-to-pdf-a/
+**Step-by-step guide:** https://selectpdf.com/how-to/word-to-pdf-a/  
+**Video walkthrough:** https://www.youtube.com/watch?v=gE-3q8-ykdo  
+**Short version:** https://www.youtube.com/shorts/9RzqZi5wAr0
 
 ## Run it
 

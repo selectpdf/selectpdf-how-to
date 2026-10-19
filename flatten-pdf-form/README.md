@@ -2,7 +2,9 @@
 
 Flatten a PDF form in C#: create a fillable form from HTML, fill it, and turn the values into page content, for all fields or some, or for an existing PDF file.
 
-**Step-by-step guide:** https://selectpdf.com/how-to/flatten-pdf-form/
+**Step-by-step guide:** https://selectpdf.com/how-to/flatten-pdf-form/  
+**Video walkthrough:** https://www.youtube.com/watch?v=lWNoGnV_gU4  
+**Short version:** https://www.youtube.com/shorts/wl8G4hmBNgo
 
 ## Run it
 

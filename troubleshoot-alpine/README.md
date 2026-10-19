@@ -2,7 +2,9 @@
 
 HTML to PDF fails on Alpine because the native engines need glibc. Convert from an Alpine .NET image in C# through the selectpdf/engine container instead.
 
-**Step-by-step guide:** https://selectpdf.com/how-to/troubleshoot-alpine/
+**Step-by-step guide:** https://selectpdf.com/how-to/troubleshoot-alpine/  
+**Video walkthrough:** https://www.youtube.com/watch?v=iemvGbbdyjU  
+**Short version:** https://www.youtube.com/shorts/UCwLJaRHuKQ
 
 ## Run it
 

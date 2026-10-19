@@ -2,7 +2,9 @@
 
 Convert a URL or an HTML string to a PNG or JPG image in C# with HtmlToImage: set the browser size, resolve relative images, capture one element, go async.
 
-**Step-by-step guide:** https://selectpdf.com/how-to/html-to-image/
+**Step-by-step guide:** https://selectpdf.com/how-to/html-to-image/  
+**Video walkthrough:** https://www.youtube.com/watch?v=Ob0ohXmFdY8  
+**Short version:** https://www.youtube.com/shorts/GZUcmacjuX4
 
 ## Run it
 

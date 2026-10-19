@@ -2,7 +2,9 @@
 
 Extract the text of a PDF in C# with SelectPdf.Universal: get it as a string or save it to a UTF-8 file, read a page range, keep columns or reading order.
 
-**Step-by-step guide:** https://selectpdf.com/how-to/pdf-to-text/
+**Step-by-step guide:** https://selectpdf.com/how-to/pdf-to-text/  
+**Video walkthrough:** https://www.youtube.com/watch?v=E3FSIoaYoYI  
+**Short version:** https://www.youtube.com/shorts/IgXi0rb7S7A
 
 ## Run it
 

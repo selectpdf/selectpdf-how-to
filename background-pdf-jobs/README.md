@@ -2,7 +2,9 @@
 
 Queue HTML and URL to PDF jobs in a .NET app and convert them in a BackgroundService: a Channel as the job queue, async conversion and a clean shutdown.
 
-**Step-by-step guide:** https://selectpdf.com/how-to/background-pdf-jobs/
+**Step-by-step guide:** https://selectpdf.com/how-to/background-pdf-jobs/  
+**Video walkthrough:** https://www.youtube.com/watch?v=5AKnX91bsis  
+**Short version:** https://www.youtube.com/shorts/pgMKL0BEmhk
 
 ## Run it
 

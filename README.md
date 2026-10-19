@@ -20,10 +20,13 @@ Complete, runnable C# programs for common PDF tasks in .NET with [SelectPdf.Univ
 
 | Sample | Guide |
 |---|---|
+| [fonts-on-linux](fonts-on-linux/) | [Fonts on Linux: the same PDF on every server, in every language (C#)](https://selectpdf.com/how-to/fonts-on-linux/) |
 | [aws-lambda-html-to-pdf](aws-lambda-html-to-pdf/) | [HTML to PDF in AWS Lambda with C# (x86_64 and arm64)](https://selectpdf.com/how-to/aws-lambda-html-to-pdf/) |
 | [azure-functions-html-to-pdf](azure-functions-html-to-pdf/) | [HTML to PDF in Azure Functions with C#](https://selectpdf.com/how-to/azure-functions-html-to-pdf/) |
 | [html-to-pdf-docker-linux](html-to-pdf-docker-linux/) | [HTML to PDF in Docker on Linux with C# (no apt-get)](https://selectpdf.com/how-to/html-to-pdf-docker-linux/) |
+| [html-to-pdf-arm64](html-to-pdf-arm64/) | [HTML to PDF on ARM64 Linux (AWS Graviton) in C#](https://selectpdf.com/how-to/html-to-pdf-arm64/) |
 | [azure-app-service-linux](azure-app-service-linux/) | [HTML to PDF on Azure App Service (Linux) in C#](https://selectpdf.com/how-to/azure-app-service-linux/) |
+| [google-cloud-run-pdf](google-cloud-run-pdf/) | [HTML to PDF on Google Cloud Run in C#](https://selectpdf.com/how-to/google-cloud-run-pdf/) |
 
 ## Edit PDFs
 
@@ -58,6 +61,9 @@ Complete, runnable C# programs for common PDF tasks in .NET with [SelectPdf.Univ
 | Sample | Guide |
 |---|---|
 | [page-breaks-css](page-breaks-css/) | [Control page breaks in HTML to PDF with CSS](https://selectpdf.com/how-to/page-breaks-css/) |
+| [url-to-pdf-authentication](url-to-pdf-authentication/) | [Convert a page behind a login to PDF in C#](https://selectpdf.com/how-to/url-to-pdf-authentication/) |
+| [community-edition-setup](community-edition-setup/) | [Free HTML to PDF in C# with the SelectPdf Community Edition](https://selectpdf.com/how-to/community-edition-setup/) |
+| [invoice-from-html-template](invoice-from-html-template/) | [Generate an invoice PDF from an HTML template in C#](https://selectpdf.com/how-to/invoice-from-html-template/) |
 | [html-to-pdf-csharp](html-to-pdf-csharp/) | [HTML to PDF in C#: convert a URL or an HTML string](https://selectpdf.com/how-to/html-to-pdf-csharp/) |
 
 ## PDF to text and images
@@ -78,8 +84,10 @@ Complete, runnable C# programs for common PDF tasks in .NET with [SelectPdf.Univ
 
 | Sample | Guide |
 |---|---|
+| [sign-pdf-pfx](sign-pdf-pfx/) | [Digitally sign a PDF with a PFX certificate in C#](https://selectpdf.com/how-to/sign-pdf-pfx/) |
 | [encrypt-pdf-aes](encrypt-pdf-aes/) | [Password-protect a PDF with AES-256 in C#](https://selectpdf.com/how-to/encrypt-pdf-aes/) |
 | [redact-pdf-regex](redact-pdf-regex/) | [Redact PDF text with a regular expression in C#](https://selectpdf.com/how-to/redact-pdf-regex/) |
+| [validate-pdf-signatures](validate-pdf-signatures/) | [Validate PDF digital signatures in C#](https://selectpdf.com/how-to/validate-pdf-signatures/) |
 
 ## Standards and e-invoicing
 

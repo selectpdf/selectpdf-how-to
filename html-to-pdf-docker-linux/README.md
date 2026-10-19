@@ -2,7 +2,9 @@
 
 Convert HTML to PDF in a Linux Docker container with SelectPdf.Universal: two NuGet packages, a stock .NET runtime image, and no system packages to install.
 
-**Step-by-step guide:** https://selectpdf.com/how-to/html-to-pdf-docker-linux/
+**Step-by-step guide:** https://selectpdf.com/how-to/html-to-pdf-docker-linux/  
+**Video walkthrough:** https://www.youtube.com/watch?v=a0tevSFNVlA  
+**Short version:** https://www.youtube.com/shorts/YC7ngpM8_oA
 
 ## Run it
 
@@ -26,3 +28,4 @@ Without a key, every page carries a trial watermark. Set `SELECTPDF_LICENSE_KEY`
 - [Remote engine](https://selectpdf.com/pdf-library/html/Remote-Engine.htm)
 - [Fonts and languages](https://selectpdf.com/pdf-library/html/Fonts-And-Languages.htm)
 - [Cloud deployments](https://selectpdf.com/pdf-library/html/Cloud-Deployments.htm)
+- [Docker deployment compared across ten .NET PDF libraries](https://selectpdf.com/comparisons/csharp-pdf-libraries/#standards)

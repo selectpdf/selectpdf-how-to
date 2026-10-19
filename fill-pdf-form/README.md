@@ -2,7 +2,9 @@
 
 Fill PDF form fields in C#: create a fillable form from HTML, set text boxes, check boxes, combo boxes and radio buttons by name, then save the filled PDF.
 
-**Step-by-step guide:** https://selectpdf.com/how-to/fill-pdf-form/
+**Step-by-step guide:** https://selectpdf.com/how-to/fill-pdf-form/  
+**Video walkthrough:** https://www.youtube.com/watch?v=3N6lHbGLJH4  
+**Short version:** https://www.youtube.com/shorts/YaVKXe17n8E
 
 ## Run it
 

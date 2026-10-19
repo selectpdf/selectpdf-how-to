@@ -1,0 +1,4 @@
+body { font-family: sans-serif; margin: 40px; }
+h1 { color: #1d4ed8; border-bottom: 3px solid #1d4ed8; padding-bottom: 8px; }
+.customer { font-size: 18px; }
+.total { font-size: 24px; font-weight: bold; text-align: right; }

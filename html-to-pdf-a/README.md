@@ -2,7 +2,9 @@
 
 Convert HTML to archival PDF/A in C#: PDF/A-2b with metadata, PDF/A-1b, PDF/A-3b with an embedded source file, and merging into PDF/A, validated by veraPDF.
 
-**Step-by-step guide:** https://selectpdf.com/how-to/html-to-pdf-a/
+**Step-by-step guide:** https://selectpdf.com/how-to/html-to-pdf-a/  
+**Video walkthrough:** https://www.youtube.com/watch?v=xYj_IyVR5TE  
+**Short version:** https://www.youtube.com/shorts/RZ7bXK5VJ5A
 
 ## Run it
 

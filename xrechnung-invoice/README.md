@@ -2,7 +2,9 @@
 
 Create an XRechnung invoice in C#: convert the invoice to PDF/A-3 and embed the XRechnung XML as xrechnung.xml with AddZugferdInvoice, validated by veraPDF.
 
-**Step-by-step guide:** https://selectpdf.com/how-to/xrechnung-invoice/
+**Step-by-step guide:** https://selectpdf.com/how-to/xrechnung-invoice/  
+**Video walkthrough:** https://www.youtube.com/watch?v=2dcEcVHTLaE  
+**Short version:** https://www.youtube.com/shorts/gGSE6-jU08E
 
 ## Run it
 

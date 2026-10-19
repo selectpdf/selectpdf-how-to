@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <!-- the engine for the machine that builds the app; publishing with -r linux-x64 picks Linux,
+       which is what the Cloud Run image needs. Fonts: the Linux image has none for CJK and other scripts. -->
+  <PropertyGroup>
+    <_SelectPdfArch>$([System.Runtime.InteropServices.RuntimeInformation]::OSArchitecture.ToString().ToLowerInvariant())</_SelectPdfArch>
+    <SelectPdfRid Condition="$([MSBuild]::IsOSPlatform('Windows'))">win-$(_SelectPdfArch)</SelectPdfRid>
+    <SelectPdfRid Condition="$([MSBuild]::IsOSPlatform('Linux'))">linux-$(_SelectPdfArch)</SelectPdfRid>
+    <SelectPdfRid Condition="$([MSBuild]::IsOSPlatform('OSX'))">osx-$(_SelectPdfArch)</SelectPdfRid>
+    <SelectPdfRid Condition="'$(RuntimeIdentifier)' != ''">$(RuntimeIdentifier)</SelectPdfRid>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SelectPdf.Universal" Version="26.5.0" />
+    <PackageReference Include="SelectPdf.Universal.Native.$(SelectPdfRid)" Version="26.5.0" />
+    <PackageReference Include="SelectPdf.Universal.Fonts" Version="26.5.0" />
+  </ItemGroup>
+
+</Project>

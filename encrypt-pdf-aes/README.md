@@ -2,7 +2,9 @@
 
 Encrypt a PDF with AES-256 in C#: set an open password, block printing and copying with an owner password, or protect an existing file with SelectPdf.Universal.
 
-**Step-by-step guide:** https://selectpdf.com/how-to/encrypt-pdf-aes/
+**Step-by-step guide:** https://selectpdf.com/how-to/encrypt-pdf-aes/  
+**Video walkthrough:** https://www.youtube.com/watch?v=APOtOQpECAw  
+**Short version:** https://www.youtube.com/shorts/S6mHbyrqGWI
 
 ## Run it
 

@@ -2,7 +2,9 @@
 
 Return HTML rendered as a PDF download from an ASP.NET Core minimal API endpoint in C#, asynchronously, and render Razor components such as invoices to PDF.
 
-**Step-by-step guide:** https://selectpdf.com/how-to/aspnet-core-pdf-endpoint/
+**Step-by-step guide:** https://selectpdf.com/how-to/aspnet-core-pdf-endpoint/  
+**Video walkthrough:** https://www.youtube.com/watch?v=XL4UKSA4uIU  
+**Short version:** https://www.youtube.com/shorts/k3CRK42k58A
 
 ## Run it
 

@@ -2,7 +2,9 @@
 
 Remove sensitive text such as card numbers from a PDF in C# with SelectPdf.Universal. The content is deleted from the file, not just covered over.
 
-**Step-by-step guide:** https://selectpdf.com/how-to/redact-pdf-regex/
+**Step-by-step guide:** https://selectpdf.com/how-to/redact-pdf-regex/  
+**Video walkthrough:** https://www.youtube.com/watch?v=vE-0wYoUVj4  
+**Short version:** https://www.youtube.com/shorts/qgU6YCSKHnk
 
 ## Run it
 

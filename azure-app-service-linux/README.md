@@ -2,7 +2,9 @@
 
 Convert HTML to PDF in an ASP.NET Core app on Azure App Service for Linux: which plan to use, the packages and fonts it needs, and zip deployment.
 
-**Step-by-step guide:** https://selectpdf.com/how-to/azure-app-service-linux/
+**Step-by-step guide:** https://selectpdf.com/how-to/azure-app-service-linux/  
+**Video walkthrough:** https://www.youtube.com/watch?v=xBHQ9Z2qXpM  
+**Short version:** https://www.youtube.com/shorts/h--u8miXgSM
 
 ## Run it
 

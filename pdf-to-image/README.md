@@ -2,7 +2,9 @@
 
 Render every page of a PDF to a PNG image in C# with SelectPdf.Universal at the resolution you choose, plus a first-page thumbnail, JPG files and grayscale.
 
-**Step-by-step guide:** https://selectpdf.com/how-to/pdf-to-image/
+**Step-by-step guide:** https://selectpdf.com/how-to/pdf-to-image/  
+**Video walkthrough:** https://www.youtube.com/watch?v=WEB8sPZPPtw  
+**Short version:** https://www.youtube.com/shorts/ZojHU9hDKPE
 
 ## Run it
 

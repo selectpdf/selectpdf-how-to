@@ -2,7 +2,9 @@
 
 Add "Page X of Y" page numbers to PDFs in C#: in an HTML to PDF footer, skipped on a cover page, or stamped onto an existing PDF with SelectPdf.Universal.
 
-**Step-by-step guide:** https://selectpdf.com/how-to/footer-page-numbers/
+**Step-by-step guide:** https://selectpdf.com/how-to/footer-page-numbers/  
+**Video walkthrough:** https://www.youtube.com/watch?v=qYrLg6UCaXU  
+**Short version:** https://www.youtube.com/shorts/fOOdfU7HHMY
 
 ## Run it
 

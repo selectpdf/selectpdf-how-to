@@ -2,7 +2,9 @@
 
 Generate PDFs from HTML in an AWS Lambda function in C#, packaged as a container image on x86_64 or arm64 Graviton, with the Dockerfile and deployment steps.
 
-**Step-by-step guide:** https://selectpdf.com/how-to/aws-lambda-html-to-pdf/
+**Step-by-step guide:** https://selectpdf.com/how-to/aws-lambda-html-to-pdf/  
+**Video walkthrough:** https://www.youtube.com/watch?v=8rX7ys1ha0A  
+**Short version:** https://www.youtube.com/shorts/RKpnHZMk7Rg
 
 ## Run it
 

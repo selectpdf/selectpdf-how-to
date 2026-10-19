@@ -2,7 +2,9 @@
 
 Convert a web page URL or an HTML string to PDF in C# on .NET 8 or .NET 10, with A4 pages and 20 mm margins, on Windows, Linux and macOS, step by step.
 
-**Step-by-step guide:** https://selectpdf.com/how-to/html-to-pdf-csharp/
+**Step-by-step guide:** https://selectpdf.com/how-to/html-to-pdf-csharp/  
+**Video walkthrough:** https://www.youtube.com/watch?v=e_6Z0LBRPGk  
+**Short version:** https://www.youtube.com/shorts/u7SVfl063DI
 
 ## Run it
 

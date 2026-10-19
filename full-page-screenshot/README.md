@@ -2,7 +2,9 @@
 
 Capture a whole web page as one PNG in C# with SelectPdf.Universal HtmlToImage: auto height, a first-screen crop, a phone-width capture and script delays.
 
-**Step-by-step guide:** https://selectpdf.com/how-to/full-page-screenshot/
+**Step-by-step guide:** https://selectpdf.com/how-to/full-page-screenshot/  
+**Video walkthrough:** https://www.youtube.com/watch?v=YIkAZ24vgVE  
+**Short version:** https://www.youtube.com/shorts/7yMVGnzHLuM
 
 ## Run it
 

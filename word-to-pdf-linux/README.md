@@ -2,7 +2,9 @@
 
 Convert Word DOCX files to PDF on Linux in C# with SelectPdf.Universal, and no Microsoft Office installed. Missing fonts come from the bundled Liberation fonts.
 
-**Step-by-step guide:** https://selectpdf.com/how-to/word-to-pdf-linux/
+**Step-by-step guide:** https://selectpdf.com/how-to/word-to-pdf-linux/  
+**Video walkthrough:** https://www.youtube.com/watch?v=MqtrGrtKcEA  
+**Short version:** https://www.youtube.com/shorts/J2oBXiT0WYU
 
 ## Run it
 

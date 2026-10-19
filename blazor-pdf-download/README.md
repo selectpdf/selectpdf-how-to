@@ -2,7 +2,9 @@
 
 Generate a PDF on the server from a Blazor Web App in C# and download it with a link or a JS interop stream, using a Razor component as the template.
 
-**Step-by-step guide:** https://selectpdf.com/how-to/blazor-pdf-download/
+**Step-by-step guide:** https://selectpdf.com/how-to/blazor-pdf-download/  
+**Video walkthrough:** https://www.youtube.com/watch?v=HKvGFv4Tluo  
+**Short version:** https://www.youtube.com/shorts/utnfKVF63j4
 
 ## Run it
 
