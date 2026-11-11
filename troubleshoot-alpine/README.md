@@ -1,6 +1,6 @@
 # Fix HTML to PDF on Alpine Linux in C# with the remote engine
 
-HTML to PDF fails on Alpine because the native engines need glibc. Convert from an Alpine .NET image in C# through the selectpdf/engine container instead.
+On Alpine (musl), SelectPdf converts through the selectpdf/engine container: the native engines need glibc, so the app references no native package and sets `RenderingEngine.ChromiumRemote`.
 
 **Step-by-step guide:** https://selectpdf.com/how-to/troubleshoot-alpine/  
 **Video walkthrough:** https://www.youtube.com/watch?v=iemvGbbdyjU  
