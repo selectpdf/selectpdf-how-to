@@ -1,0 +1,8 @@
+# Sample inputs are binary: never convert their line endings on checkout
+*.pdf binary
+*.docx binary
+*.xlsx binary
+*.pptx binary
+*.pfx binary
+*.png binary
+*.jpg binary
