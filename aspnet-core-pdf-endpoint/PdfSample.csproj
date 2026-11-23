@@ -15,7 +15,7 @@
     <SelectPdfRid Condition="$([MSBuild]::IsOSPlatform('Linux'))">linux-$(_SelectPdfArch)</SelectPdfRid>
     <SelectPdfRid Condition="$([MSBuild]::IsOSPlatform('OSX'))">osx-$(_SelectPdfArch)</SelectPdfRid>
     <SelectPdfRid Condition="'$(RuntimeIdentifier)' != ''">$(RuntimeIdentifier)</SelectPdfRid>
-    <SelectPdfVersion>26.5.0</SelectPdfVersion>
+    <SelectPdfVersion>26.6.0</SelectPdfVersion>
   </PropertyGroup>
 
   <Target Name="_SelectPdfCheckPlatform" BeforeTargets="CollectPackageReferences;Build"

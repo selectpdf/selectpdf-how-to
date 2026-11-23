@@ -17,9 +17,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="SelectPdf.Universal" Version="26.5.0" />
-    <PackageReference Include="SelectPdf.Universal.Native.$(SelectPdfRid)" Version="26.5.0" />
-    <PackageReference Include="SelectPdf.Universal.Fonts" Version="26.5.0" />
+    <PackageReference Include="SelectPdf.Universal" Version="26.6.0" />
+    <PackageReference Include="SelectPdf.Universal.Native.$(SelectPdfRid)" Version="26.6.0" />
+    <PackageReference Include="SelectPdf.Universal.Fonts" Version="26.6.0" />
   </ItemGroup>
 
 </Project>

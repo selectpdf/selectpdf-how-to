@@ -1,0 +1,102 @@
+%PDF-1.7
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R /NeedsRendering true /AcroForm << /Fields [] /XFA [(preamble) 8 0 R (config) 10 0 R (template) 4 0 R (datasets) 5 0 R (postamble) 9 0 R] >> >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 6 0 R /Resources << /Font << /F1 7 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 4526 >>
+stream
+<template xmlns="http://www.xfa.org/schema/xfa-template/3.3/"><?formServer defaultPDFRenderFormat acrobat9.1dynamic?>
+<subform name="form1" layout="tb" locale="en_US">
+<pageSet><pageArea name="Page1"><contentArea x="0.5in" y="0.5in" w="7.5in" h="10in"/><medium stock="letter" short="8.5in" long="11in"/></pageArea></pageSet>
+<subform name="Page1" w="7.5in" layout="tb">
+<draw w="7.5in" h="0.5in"><ui><textEdit/></ui><value><text>Order form</text></value><font typeface="Arial" size="18pt" weight="bold"/></draw>
+<field name="Name" w="4in" h="0.38in"><ui><textEdit><border><edge/></border><margin leftInset="1mm" rightInset="1mm"/></textEdit></ui><font typeface="Arial" size="10pt"/><para vAlign="middle"/>
+<caption reserve="1.2in"><value><text>Name</text></value><para vAlign="middle"/></caption><assist><toolTip>Your full name</toolTip></assist>
+<validate nullTest="error"/></field>
+<field name="BirthDate" w="4in" h="0.38in"><ui><dateTimeEdit><border><edge/></border><margin leftInset="1mm" rightInset="1mm"/></dateTimeEdit></ui><font typeface="Arial" size="10pt"/><para vAlign="middle"/><value><date/></value>
+<format><picture>date{MMMM D, YYYY}</picture></format>
+<caption reserve="1.2in"><value><text>Date of birth</text></value><para vAlign="middle"/></caption></field>
+<field name="Quantity" w="2.5in" h="0.38in"><ui><numericEdit><border><edge/></border><margin leftInset="1mm" rightInset="1mm"/></numericEdit></ui><font typeface="Arial" size="10pt"/><para vAlign="middle"/><value><integer/></value>
+<caption reserve="1.2in"><value><text>Quantity</text></value><para vAlign="middle"/></caption>
+<validate scriptTest="error"><script contentType="application/x-javascript">this.isNull || this.rawValue &gt; 0</script><message><text name="scriptTest">The quantity must be greater than zero.</text></message></validate></field>
+<field name="Price" w="2.5in" h="0.38in"><ui><numericEdit><border><edge/></border><margin leftInset="1mm" rightInset="1mm"/></numericEdit></ui><font typeface="Arial" size="10pt"/><para vAlign="middle"/><value><decimal fracDigits="2"/></value>
+<caption reserve="1.2in"><value><text>Unit price</text></value><para vAlign="middle"/></caption><format><picture>num{z,zz9.99}</picture></format></field>
+<field name="Total" w="2.5in" h="0.38in" access="readOnly"><ui><numericEdit><border><edge/></border><margin leftInset="1mm" rightInset="1mm"/></numericEdit></ui><font typeface="Arial" size="10pt"/><para vAlign="middle"/><value><decimal fracDigits="2"/></value>
+<caption reserve="1.2in"><value><text>Total</text></value><para vAlign="middle"/></caption><format><picture>num{z,zz9.99}</picture></format>
+<calculate><script contentType="application/x-javascript">Quantity.rawValue * Price.rawValue</script></calculate></field>
+<field name="Delivery" w="3in" h="0.38in"><ui><choiceList><border><edge/></border><margin leftInset="1mm" rightInset="1mm"/></choiceList></ui><font typeface="Arial" size="10pt"/><para vAlign="middle"/>
+<caption reserve="1.2in"><value><text>Delivery</text></value><para vAlign="middle"/></caption>
+<items><text>Standard</text><text>Express</text></items><items save="1" presence="hidden"><text>STD</text><text>EXP</text></items></field>
+<field name="Agree" w="4in" h="0.3in"><ui><checkButton size="10pt"><border><edge/></border></checkButton></ui><font typeface="Arial" size="10pt"/><para vAlign="middle"/>
+<items><integer>1</integer><integer>0</integer></items><caption placement="right" reserve="3.6in"><value><text>I accept the terms</text></value><para vAlign="middle"/></caption></field>
+<field name="Check" w="1.5in" h="0.38in"><ui><button highlight="push"/></ui><border hand="right"><edge stroke="raised"/><fill><color value="212,208,200"/></fill></border><font typeface="Arial" size="10pt"/><para vAlign="middle"/><caption><value><text>Check</text></value><para hAlign="center" vAlign="middle"/></caption>
+<event activity="click"><script contentType="application/x-javascript">
+if (Name.isNull) xfa.host.messageBox("Please enter your name.");
+else if (Agree.rawValue != 1) xfa.host.messageBox("Please accept the terms.");
+else xfa.host.messageBox("The order of " + Name.rawValue + " is complete: " + Total.formattedValue + ".");
+</script></event></field>
+<field name="Signature" w="3in" h="0.8in"><ui><signature><border><edge/></border></signature></ui><font typeface="Arial" size="10pt"/><para vAlign="middle"/>
+<caption placement="top" reserve="0.25in"><value><text>Signature</text></value><para vAlign="middle"/></caption></field>
+</subform>
+</subform>
+</template>
+endstream
+endobj
+5 0 obj
+<< /Length 241 >>
+stream
+<xfa:datasets xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/"><xfa:data><form1><Page1><Name/><BirthDate/><Quantity>1</Quantity><Price>12.50</Price><Total/><Delivery>STD</Delivery><Agree>0</Agree></Page1></form1></xfa:data></xfa:datasets>
+endstream
+endobj
+6 0 obj
+<< /Length 100 >>
+stream
+BT /F1 14 Tf 72 720 Td (This form needs a viewer that shows XFA forms, such as Adobe Acrobat.) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+8 0 obj
+<< /Length 46 >>
+stream
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/">
+endstream
+endobj
+9 0 obj
+<< /Length 10 >>
+stream
+</xdp:xdp>
+endstream
+endobj
+10 0 obj
+<< /Length 249 >>
+stream
+<config xmlns="http://www.xfa.org/schema/xci/3.1/"><present><pdf><version>1.7</version><adobeExtensionLevel>1</adobeExtensionLevel><renderPolicy>client</renderPolicy><scriptModel>XFA</scriptModel><interactive>1</interactive></pdf></present></config>
+endstream
+endobj
+xref
+0 11
+0000000000 65535 f 
+0000000015 00000 n 
+0000000204 00000 n 
+0000000261 00000 n 
+0000000387 00000 n 
+0000004965 00000 n 
+0000005257 00000 n 
+0000005408 00000 n 
+0000005505 00000 n 
+0000005601 00000 n 
+0000005661 00000 n 
+trailer
+<< /Size 11 /Root 1 0 R >>
+startxref
+5962
+%%EOF

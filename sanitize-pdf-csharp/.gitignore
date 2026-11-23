@@ -1,0 +1,8 @@
+bin/
+obj/
+*.pdf
+inbox/
+.vs/
+*.user
+!price-list.pdf
+!untrusted.pdf

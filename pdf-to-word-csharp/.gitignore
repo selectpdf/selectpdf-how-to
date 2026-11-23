@@ -1,0 +1,9 @@
+bin/
+obj/
+*.pdf
+inbox/
+.vs/
+*.user
+!quarterly-review.pdf
+!report.pdf
+!sales-by-region.pdf

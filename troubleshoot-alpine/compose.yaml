@@ -1,7 +1,7 @@
 services:
   # the service name is the library's default endpoint: http://selectpdf-engine:8080
   selectpdf-engine:
-    image: ghcr.io/selectpdf/engine:26.5
+    image: ghcr.io/selectpdf/engine:26.6
     read_only: true
     tmpfs:
       - /tmp

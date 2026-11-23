@@ -1,0 +1,7 @@
+bin/
+obj/
+*.pdf
+inbox/
+.vs/
+*.user
+!xfa-form.pdf

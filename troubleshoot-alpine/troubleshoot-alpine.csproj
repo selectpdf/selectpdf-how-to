@@ -5,12 +5,12 @@
     <TargetFramework>net10.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <AssemblyName>PdfSample</AssemblyName>
+    <AssemblyName>PdfSample</AssemblyName>
   </PropertyGroup>
 
   <!-- only the managed package: the engines run in the selectpdf/engine container -->
   <ItemGroup>
-    <PackageReference Include="SelectPdf.Universal" Version="26.5.0" />
+    <PackageReference Include="SelectPdf.Universal" Version="26.6.0" />
   </ItemGroup>
 
   <!-- the samples' shared setup (license key, output folder); not part of the guide -->

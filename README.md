@@ -8,6 +8,7 @@ Complete, runnable C# programs for common PDF tasks in .NET with [SelectPdf.Univ
 |---|---|
 | [accessible-pdf-ua-csharp](accessible-pdf-ua-csharp/) | [Accessible PDF/UA from HTML in C# (tagged PDF)](https://selectpdf.com/how-to/accessible-pdf-ua-csharp/) |
 | [html-to-pdf-a](html-to-pdf-a/) | [Convert HTML to PDF/A for archiving in C#](https://selectpdf.com/how-to/html-to-pdf-a/) |
+| [validate-pdf-a-csharp](validate-pdf-a-csharp/) | [Validate PDF/A compliance in C# and fix what fails](https://selectpdf.com/how-to/validate-pdf-a-csharp/) |
 
 ## ASP.NET Core
 
@@ -39,6 +40,7 @@ Complete, runnable C# programs for common PDF tasks in .NET with [SelectPdf.Univ
 
 | Sample | Guide |
 |---|---|
+| [fill-xfa-form-csharp](fill-xfa-form-csharp/) | [Fill a dynamic XFA form in C#](https://selectpdf.com/how-to/fill-xfa-form-csharp/) |
 | [fill-pdf-form](fill-pdf-form/) | [Fill PDF form fields in C#](https://selectpdf.com/how-to/fill-pdf-form/) |
 | [flatten-pdf-form](flatten-pdf-form/) | [Flatten a PDF form in C#](https://selectpdf.com/how-to/flatten-pdf-form/) |
 
@@ -66,11 +68,12 @@ Complete, runnable C# programs for common PDF tasks in .NET with [SelectPdf.Univ
 | [invoice-from-html-template](invoice-from-html-template/) | [Generate an invoice PDF from an HTML template in C#](https://selectpdf.com/how-to/invoice-from-html-template/) |
 | [html-to-pdf-csharp](html-to-pdf-csharp/) | [HTML to PDF in C#: convert a URL or an HTML string](https://selectpdf.com/how-to/html-to-pdf-csharp/) |
 
-## PDF to text and images
+## PDF to Word, text and images
 
 | Sample | Guide |
 |---|---|
 | [pdf-to-image](pdf-to-image/) | [Convert PDF pages to PNG images in C#](https://selectpdf.com/how-to/pdf-to-image/) |
+| [pdf-to-word-csharp](pdf-to-word-csharp/) | [Convert PDF to an editable Word document in C#](https://selectpdf.com/how-to/pdf-to-word-csharp/) |
 | [pdf-to-text](pdf-to-text/) | [Extract text from a PDF in C#](https://selectpdf.com/how-to/pdf-to-text/) |
 
 ## Performance
@@ -87,6 +90,7 @@ Complete, runnable C# programs for common PDF tasks in .NET with [SelectPdf.Univ
 | [sign-pdf-pfx](sign-pdf-pfx/) | [Digitally sign a PDF with a PFX certificate in C#](https://selectpdf.com/how-to/sign-pdf-pfx/) |
 | [encrypt-pdf-aes](encrypt-pdf-aes/) | [Password-protect a PDF with AES-256 in C#](https://selectpdf.com/how-to/encrypt-pdf-aes/) |
 | [redact-pdf-regex](redact-pdf-regex/) | [Redact PDF text with a regular expression in C#](https://selectpdf.com/how-to/redact-pdf-regex/) |
+| [sanitize-pdf-csharp](sanitize-pdf-csharp/) | [Sanitize a PDF from an untrusted source in C#](https://selectpdf.com/how-to/sanitize-pdf-csharp/) |
 | [validate-pdf-signatures](validate-pdf-signatures/) | [Validate PDF digital signatures in C#](https://selectpdf.com/how-to/validate-pdf-signatures/) |
 
 ## Standards and e-invoicing
@@ -103,11 +107,13 @@ Complete, runnable C# programs for common PDF tasks in .NET with [SelectPdf.Univ
 | [troubleshoot-blank-or-missing-content](troubleshoot-blank-or-missing-content/) | [Fix blank pages and missing content in HTML to PDF (C#)](https://selectpdf.com/how-to/troubleshoot-blank-or-missing-content/) |
 | [troubleshoot-alpine](troubleshoot-alpine/) | [Fix HTML to PDF on Alpine Linux in C# with the remote engine](https://selectpdf.com/how-to/troubleshoot-alpine/) |
 
-## Word to PDF
+## Word, Excel and PowerPoint to PDF
 
 | Sample | Guide |
 |---|---|
 | [word-to-pdf-linux](word-to-pdf-linux/) | [Convert DOCX to PDF on Linux in C#](https://selectpdf.com/how-to/word-to-pdf-linux/) |
+| [excel-to-pdf-csharp](excel-to-pdf-csharp/) | [Convert Excel workbooks to PDF in C#](https://selectpdf.com/how-to/excel-to-pdf-csharp/) |
+| [powerpoint-to-pdf-csharp](powerpoint-to-pdf-csharp/) | [Convert PowerPoint presentations to PDF in C#](https://selectpdf.com/how-to/powerpoint-to-pdf-csharp/) |
 | [word-to-pdf-a](word-to-pdf-a/) | [Convert Word documents to PDF/A for archiving in C#](https://selectpdf.com/how-to/word-to-pdf-a/) |
 
 ## Run a sample

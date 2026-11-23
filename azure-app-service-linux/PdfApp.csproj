@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net10.0</TargetFramework>
     <Nullable>enable</Nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
+    <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
   <!-- the engine for the machine that builds the app; publishing with -r linux-x64 picks Linux,
@@ -17,9 +17,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="SelectPdf.Universal" Version="26.5.0" />
-    <PackageReference Include="SelectPdf.Universal.Native.$(SelectPdfRid)" Version="26.5.0" />
-    <PackageReference Include="SelectPdf.Universal.Fonts" Version="26.5.0" />
+    <PackageReference Include="SelectPdf.Universal" Version="26.6.0" />
+    <PackageReference Include="SelectPdf.Universal.Native.$(SelectPdfRid)" Version="26.6.0" />
+    <PackageReference Include="SelectPdf.Universal.Fonts" Version="26.6.0" />
   </ItemGroup>
 
 </Project>
